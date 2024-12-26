@@ -293,14 +293,11 @@ kubectl rollout undo deployment/test-deploy
 ### 6. Perform a staged rollout with incremental updates
 
 **Scenario**:
-
-<details>
-<summary>Details</summary>
-
 - Deploy an application named `staged-rollout-app` with an initial 25% traffic allocation to the new version.
 - Incrementally roll out the new version while ensuring no downtime.
 
-#### Declarative YAML Configuration
+<details>
+<summary>Declarative YAML Configuration</summary>
 
 ```yaml
 apiVersion: apps/v1
@@ -354,12 +351,12 @@ kubectl rollout status deployment/staged-rollout-app
 ### 7. Deploy an application using Helm with custom values
 
 **Scenario**:
-
-<details>
-<summary>Details</summary>
-
 - Use Helm to deploy an application named `custom-helm-app`.
 - Override the default values for replica count (5) and image version (`nginx:1.20`).
+
+<details>
+<summary>Command</summary>
+
 
 #### Create and customize the Helm chart
 
@@ -401,12 +398,11 @@ helm install custom-helm-app ./custom-helm-app
 ### 8. Rollback a Helm release to a previous revision
 
 **Scenario**:
-
-<details>
-<summary>Details</summary>
-
 - A Helm release named `example-app` was updated to a faulty version.
 - Rollback the release to the previous stable revision.
+
+<details>
+<summary>Command</summary>
 
 #### Rollback the Helm release
 
@@ -432,14 +428,11 @@ helm rollback example-app 1
 ### 9. Perform a rolling update for a StatefulSet
 
 **Scenario**:
-
-<details>
-<summary>Details</summary>
-
 - Update the image of an existing StatefulSet named `stateful-app` from `redis:6.2` to `redis:7.0`.
 - Ensure each pod is updated sequentially.
 
-#### Declarative YAML Configuration
+<details>
+<summary>Declarative YAML Configuration</summary>
 
 ```yaml
 apiVersion: apps/v1
@@ -483,14 +476,11 @@ kubectl rollout status statefulset/stateful-app
 ### 10. Deploy a workload using Helm with external secrets
 
 **Scenario**:
-
-<details>
-<summary>Details</summary>
-
 - Deploy an application named `secret-helm-app` using Helm.
 - Use external Secrets for database credentials.
 
-#### External Secret YAML Configuration
+<details>
+<summary>External Secret YAML Configuration</summary>
 
 ```yaml
 apiVersion: v1
