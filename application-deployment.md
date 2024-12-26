@@ -548,8 +548,5 @@ helm install secret-helm-app ./helm-chart
 ## Resources
 1. [Kubernetes Official Documentation](https://kubernetes.io/docs/)
 2. [Helm Official Documentation](https://helm.sh/docs/)
-3. [Kustomize Official Documentation](https://kustomize.io/)
-4. [CKAD Exam Curriculum](https://github.com/cncf/curriculum)
-5. [Kubernetes Deployment Best Practices](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
-
+3. [CKAD Exam Curriculum](https://github.com/cncf/curriculum/blob/master/CKAD_Curriculum_v1.31.pdf)
 ---
