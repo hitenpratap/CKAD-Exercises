@@ -80,7 +80,6 @@ spec:
     port: 80
     targetPort: 8080
 ```
-</details>
 
 #### Steps to Apply:
 1. Save the YAML file and apply it:
@@ -91,6 +90,7 @@ spec:
    ```bash
    kubectl patch service my-app-service -p '{"spec":{"selector":{"app":"my-app","version":"green"}}}'
    ```
+</details>
 
 ---
 
@@ -159,7 +159,6 @@ spec:
     port: 80
     targetPort: 8080
 ```
-</details>
 
 #### Steps to Apply:
 1. Deploy the stable and canary versions:
@@ -171,7 +170,7 @@ spec:
    kubectl scale deployment app-canary --replicas=5
    kubectl scale deployment app-stable --replicas=5
    ```
-
+</details>
 ---
 
 ### 3. Configure a rolling update for an application
@@ -211,7 +210,6 @@ spec:
           maxUnavailable: 1
           maxSurge: 1
 ```
-</details>
 
 #### Steps to Apply:
 1. Save and apply the YAML file:
@@ -222,6 +220,7 @@ spec:
    ```bash
    kubectl rollout status deployment/rolling-update-app
    ```
+</details>
 
 ---
 
@@ -251,7 +250,6 @@ Deploy the Helm chart:
 ```bash
 helm install helm-app ./helm-app
 ```
-</details>
 
 #### Steps to Verify:
 1. Verify the Helm release:
@@ -262,6 +260,7 @@ helm install helm-app ./helm-app
    ```bash
    kubectl get pods -l app.kubernetes.io/name=helm-app
    ```
+</details>
 
 ---
 
@@ -279,7 +278,6 @@ Rollback the deployment:
 ```bash
 kubectl rollout undo deployment/test-deploy
 ```
-</details>
 
 #### Steps to Verify:
 1. Check the rollout history:
@@ -290,7 +288,7 @@ kubectl rollout undo deployment/test-deploy
    ```bash
    kubectl get pods
    ```
-
+</details>
 
 ### 6. Perform a staged rollout with incremental updates
 
