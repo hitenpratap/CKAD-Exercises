@@ -1969,4 +1969,4 @@ kubectl apply -f audit-pod.yaml
 
 ## Resources
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/)
-- [CKAD Exam Curriculum](https://github.com/cncf/curriculum/blob/main/CKAD_Curriculum_v1.31.pdf)
+- [CKAD Exam Curriculum](https://github.com/cncf/curriculum/blob/master/CKAD_Curriculum_v1.31.pdf)
