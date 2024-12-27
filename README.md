@@ -53,10 +53,6 @@ These questions and solutions are provided "as is" and there is a possibility th
 
 Contributions are welcome! If you have additional questions or improvements, feel free to open a pull request.
 
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
 ---
 
 Happy Practicing and Good Luck with your CKAD Exam! 🎉
