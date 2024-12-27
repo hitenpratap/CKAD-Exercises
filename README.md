@@ -13,6 +13,7 @@ Each topic from the CKAD curriculum has its own markdown page with detailed prac
 3. [Application Environment, Configuration And Security](./application-environment-configuration-security.md)
 4. [Application Maintenance And Observability](./application-maintennace-observability.md)
 5. [Service And Networking](./services-networking.md)
+6. [Docker/Podman](./docker-question.md)
 
 ## Features
 
@@ -43,6 +44,10 @@ Each topic from the CKAD curriculum has its own markdown page with detailed prac
 - [CKAD Curriculum](https://github.com/cncf/curriculum/blob/master/CKAD_Curriculum_v1.31.pdf)
 - [Kubernetes Documentation](https://kubernetes.io/docs/)
 - [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
+
+## Disclaimer
+
+These questions and solutions are provided "as is" and there is a possibility that some questions or solutions may contain errors or may not work as expected. If you come across any such issues, please feel free to create a pull request (PR) with the fix or open an issue in the repository. Your contributions to improve the content are highly appreciated!
 
 ## Contributions
 
