@@ -2304,7 +2304,7 @@ spec:
 
 ### Resources
 - [Kubernetes Official Documentation](https://kubernetes.io/docs/)
-- [CKAD Exam Curriculum](https://github.com/cncf/curriculum)
+- [CKAD Exam Curriculum](https://github.com/cncf/curriculum/blob/master/CKAD_Curriculum_v1.31.pdf)
 - [Kubernetes Security Best Practices](https://kubernetes.io/docs/concepts/security/overview/)
-- Practice Labs: [Katacoda](https://www.katacoda.com/) and [Play with Kubernetes](https://labs.play-with-k8s.com/)
+- Practice Labs: [Play with Kubernetes](https://labs.play-with-k8s.com/)
 
